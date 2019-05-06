@@ -118,12 +118,9 @@ geotab.addin.shortHaulSwitcher = function(api, state) {
     var setButton = function(ruleVal) {
         if (ruleVal === shortHaulObj.enabled.val) {
             switcherButton.innerHTML = shortHaulObj.enabled.lbl;
-            title.innerHTML = shortHaulObj.enabled.title;
 
         } else {
             switcherButton.innerHTML = shortHaulObj.disabled.lbl;
-            title.innerHTML = shortHaulObj.disabled.title;
-
         }
     };
 
@@ -600,7 +597,6 @@ geotab.addin.shortHaulSwitcher = function(api, state) {
 
                     if (recheckOnline()) {
                         switcherButton.innerHTML = "Toggle (Uknown Status)";
-                        title.innerHTML = "Unknown Status";
                         blockError.style.display = 'none';
                         connectError.style.display = 'none';
                         switcherButton.disabled = false;
