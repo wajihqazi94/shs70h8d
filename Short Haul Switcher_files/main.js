@@ -161,6 +161,7 @@ geotab.addin.shortHaulSwitcher = function(api, state) {
             });
             /* //another global variable
                 storingInfo.push({ "date": dateStamp },{ "state": state });
+
                 // Re-serialize the array back into a string and store it in localStorage this is for testing
                 localStorage.setItem('myInfo', JSON.stringify(storingInfo)); */
             alert("Currently Offline. This will be applied automatically the next time you're online")
@@ -365,6 +366,7 @@ geotab.addin.shortHaulSwitcher = function(api, state) {
                 		"id":shortHaulCache[0].device.id},
                 		"dateTime": shortHaulCache[0].date,
                 		"status": "ON"
+
                 	}
                 }]*/
             )
