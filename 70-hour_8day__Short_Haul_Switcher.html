@@ -1,31 +1,25 @@
+<!DOCTYPE html>
 <html>
-    <head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <title>Short Haul Switcher</title>
-   
-<link rel="stylesheet" type="text/css" href="./Short Haul Switcher_files/short_haul_switcher.css"></head>
-    
-
-<body style="zoom: 1;">
-<fieldset class="extern inset">
-        <legend>Current Ruleset Information</legend>
-       <h3 id="current"></h3>
-    <div id="shs-switcherButton-container">
-			<div class="notice-box" style="display: flex;margin: 0 0 1rem 0;width: 100%;color: #0f65a1;border: solid 3px #ecf2fe;background: #ecf2fe;box-sizing: border-box;border-radius: 5px;">
-						<span style="display: block;float: left;padding: 5px 5px 5px 4px;background: #ecf2fe;text-align: center;line-height: 35px;box-sizing: border-box;min-width: 42px;"><i class="icon-info-circled"></i></span>
-						  <a style="text-decoration: none;color:#0f65a1;">You must be in a non driving duty status to make changes to your exemption. If you are currently in a "D" status, by pressing this button, you will be placed ON duty first.
-
-            </a></div><a style="text-decoration: none;color:#0f65a1;">
-        <button id="shs-switcherButton">Toogle Exemption</button>
-        <div id="text">
-            
+   <head>
+      <title >Short Haul Switcher</title>
+   </head>
+   <link rel="stylesheet" type="text/css" href="short_haul_switcher.css">
+   <body>
+      <fieldset class="extern inset" >
+         <legend>Current Ruleset Information</legend>
+         <h3 id="current"></h3>
+         <div id="shs-switcherButton-container">
+         <div class="notice-box" style="display: flex;margin: 0 0 1rem 0;width: 100%;color: #0f65a1;border: solid 3px #ecf2fe;background: #ecf2fe;box-sizing: border-box;border-radius: 5px;">
+            <span style="display: block;float: left;padding: 5px 5px 5px 4px;background: #ecf2fe;text-align: center;line-height: 35px;box-sizing: border-box;min-width: 42px;"><i class="icon-info-circled"></i></span>
+            <a style="text-decoration: none;color:#0f65a1;" style="display: flex; margin: 0 0 1rem 0;width: 100%;color: #0f65a1;background: #ecf2fe;box-sizing: border-box;border-radius: 5px; text-align:left">You must be in a non driving duty status to make changes to your exemption. If you are currently in a "D" status, by pressing this button, you will be placed ON duty first.
+         </div>
+         <button id="shs-switcherButton">Toogle Exemption</button>
+         <div id="text">
+            </id>
             <button id="shs-blockedError">You are not allowed to use this Short Haul Exemption Add-In.</button>
-            <button id="shs-connectError">Unable to use this button. <br>Please check back and try again</button>
-        </div>
-		    </a></div></fieldset><a style="text-decoration: none;color:#0f65a1;">
-
-
-				<script src="./Short Haul Switcher_files/main.js"></script>
-
-
-</a></body>
+            <button id="shs-connectError">Unable to use this button. <br />Please check back and try again</button>
+         </div>
+      </fieldset>
+   </body>
+   <script src="js/main.js"></script>
 </html>
