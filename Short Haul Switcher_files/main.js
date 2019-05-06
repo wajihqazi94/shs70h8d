@@ -503,12 +503,9 @@ geotab.addin.shortHaulSwitcher = function(api, state) {
 
             if (activeUser.hosRuleSet === shortHaulObj.enabled.val) {
                 switcherButton.innerHTML = shortHaulObj.enabled.lbl;
-                title.innerHTML = shortHaulObj.enabled.title;
 
             } else {
                 switcherButton.innerHTML = shortHaulObj.disabled.lbl;
-                title.innerHTML = shortHaulObj.disabled.title;
-
             }
 
             showSpinner('shs-switcherButton', false);
