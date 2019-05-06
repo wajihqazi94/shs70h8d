@@ -45,7 +45,7 @@
 }
 
 .shs-spinner:before {
-    content: 'Loading…';
+    content: 'Loadingâ€¦';
     position: absolute;
     top: 7%;
     left: 20%;
