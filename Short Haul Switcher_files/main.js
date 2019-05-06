@@ -118,9 +118,12 @@ geotab.addin.shortHaulSwitcher = function(api, state) {
     var setButton = function(ruleVal) {
         if (ruleVal === shortHaulObj.enabled.val) {
             switcherButton.innerHTML = shortHaulObj.enabled.lbl;
+            title.innerHTML = shortHaulObj.enabled.title;
 
         } else {
             switcherButton.innerHTML = shortHaulObj.disabled.lbl;
+            title.innerHTML = shortHaulObj.disabled.title;
+
         }
     };
 
@@ -158,7 +161,6 @@ geotab.addin.shortHaulSwitcher = function(api, state) {
             });
             /* //another global variable
                 storingInfo.push({ "date": dateStamp },{ "state": state });
-
                 // Re-serialize the array back into a string and store it in localStorage this is for testing
                 localStorage.setItem('myInfo', JSON.stringify(storingInfo)); */
             alert("Currently Offline. This will be applied automatically the next time you're online")
@@ -363,7 +365,6 @@ geotab.addin.shortHaulSwitcher = function(api, state) {
                 		"id":shortHaulCache[0].device.id},
                 		"dateTime": shortHaulCache[0].date,
                 		"status": "ON"
-
                 	}
                 }]*/
             )
@@ -503,9 +504,12 @@ geotab.addin.shortHaulSwitcher = function(api, state) {
 
             if (activeUser.hosRuleSet === shortHaulObj.enabled.val) {
                 switcherButton.innerHTML = shortHaulObj.enabled.lbl;
+                title.innerHTML = shortHaulObj.enabled.title;
 
             } else {
                 switcherButton.innerHTML = shortHaulObj.disabled.lbl;
+                title.innerHTML = shortHaulObj.disabled.title;
+
             }
 
             showSpinner('shs-switcherButton', false);
@@ -594,6 +598,7 @@ geotab.addin.shortHaulSwitcher = function(api, state) {
 
                     if (recheckOnline()) {
                         switcherButton.innerHTML = "Toggle (Uknown Status)";
+                        title.innerHTML = "Unknown Status";
                         blockError.style.display = 'none';
                         connectError.style.display = 'none';
                         switcherButton.disabled = false;
