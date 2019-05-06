@@ -1,0 +1,20 @@
+{
+  "name": "Short Haul Switcher (70hr8day)",
+  "supportEmail": "support@geotab.com",
+  "solutionId" : "shortHaulSwitcher8Day",
+  "id": "shortHaulSwitcher8Day",
+  "version": "1.0.3",
+  "items": [
+    {
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYBQTFRF32tK8plC4nZX2VEp5Goj/v39/Nqx1VEl95Md8Iom21gy4G1MzUcn9vbw8/Lr95Uf8Yso8YYf8IQf3mRB3WE931sl21Mm104nx0Im2lUv3Fcm2lEn7X0g008m42Yk74If9ZAe84se+Jwv3mZE7a2axkEl8oof3WNA2lYv9pMe8Ywq8Ich2lMs4WEl1Esn85xI5Yht9I8e2E8o8584245w+J0w7u3j53Ai8Y8x5sKQ6OHQ1WQ+7H8p6JV9314l8pU77Hwg3se13Vgm6JR79Y8e9ZAd5Mmo9pEd6p+J58CK6rRs84oe0Ukn/Pz71FMx4F8l59zI8Igf8ogf7q1a6JpV6nYh74Uf66CL6ZeA6ZqC8KZI7Hoh5ceb6uXZ2FUm8ooe8O/m8osez2BE8ZE085xH8fDn5NK821o13Fw32E8n5nQ37H4g8Igj9Iwe9pYh5m4i7XwgyEMn3F0485829Jwy8Ikk2nNR2lQt0E8v5opv3lkl6JN78IYf2U8n////95Qdr3CVFAAAAVFJREFUeNpiYFOqxwOU2BjwygNVMNQTAGQryIsKNkYoKNCVimNnl0UC1o58vGae/FAF0bUgYCSu58PDUyihCgSFjqx1dXW8XlAFohoGtbXc3EBFzBm1meJ6fhVJCXUgEABVIMVcWSvsHAmUZ2DWYQCqrS7jAyuwgipgqYUBSQiZzhULkmeNgSpwsatFByapdXW+VsUwX3AIyqCDELc0yxKKAgq7Ak1CCsw5EGxDqGoGeSRQFaoAB2qJUAUovpPOrkEAQywKaqvCEAoENbEoqGVBMkINrKBcmUtEXUNZQ12ES1lHuUjaRlurlFNAWyuHU6DGBaRAWIUpwoNbhSHclklFXcWgNotTP9k+RUDfgpERbAS6FU5CSI7gwFQg7YDuDTQF+Ujy8RBvyiEBMX9vRRgIFOTADGrdXARb0RVLXAQhsd0pzTgIBQQyrykDoewPEGAA0wSkKf9mYO0AAAAASUVORK5CYII=",
+      "path": "DriveAppLink/",
+      "menuName": {
+        "en": "Short Haul",
+        "fr": "Short Haul"
+      },
+      "url": "https://app.geotab.com/addins/geotab/shs-70h8day/1.0.3/_70-hour_8day__Short_Haul_Switcher.html"
+    }
+  ],
+  "files": { },
+  "isSigned": true
+}
