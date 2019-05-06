@@ -1,0 +1,65 @@
+/*
+ *	-- Globals
+*/
+
+#shs-switcherButton-container {
+	margin: 0 auto;
+	padding: 1em;
+	text-align: center;
+}
+
+#shs-switcherButton {
+	font-size: 2em;
+	font-weight: bold;
+	padding: 1em;
+	color: #fff;
+
+	background-size: 200% 100%;
+	-webkit-transition: background-position 3s;
+	-moz-transition: background-position 3s;
+	transition: background-position 3s ease-in;
+}
+
+#shs-connectError, #shs-blockedError {
+	border-color: #c43c35;
+	background-color: #cd0a0a;
+  display: none;
+}
+
+
+/*
+ *	-- Spinner
+*/
+
+@keyframes shs-spinner {
+    to {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes shs-spinner {
+    to {-webkit-transform: rotate(360deg);}
+}
+
+.shs-spinner {
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.shs-spinner:before {
+    content: 'Loading…';
+    position: absolute;
+    top: 7%;
+    left: 20%;
+    width: 64px;
+    height: 64px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.shs-spinner:not(:required):before {
+    content: '';
+    border-radius: 50%;
+    border: 20px solid rgba(0, 0, 0, .3);
+    border-top-color: rgba(0, 0, 0, .6);
+    animation: spinner .6s linear infinite;
+    -webkit-animation: spinner .6s linear infinite;
+}
